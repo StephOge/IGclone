@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    margin: 0;
+}
+div.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+}
+nav.navigation li {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+    margin-top: 10px;
+}
+nav.navigation {
+    border: 1px solid rgba(0, 0, 0, 0.315);
+    position: fixed;
+}
+.rounded-img {
+    border-radius: 50%;
+    text-decoration: none;
+}
+/* main {
+    margin-right: 170px;
+} */
+div.stories img {
+    border: 2px solid red;
+    padding: 2px;
+}
+div.stories {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgba(0, 0, 0, 0.315);
+    padding: 10px;
+    border-radius: 10px;
+}
+.stories p {
+    font-size: small;
+}
+.images img {
+    border: 1px solid red;
+    border-radius: 30px;
+    padding: 2px;
+}
+main #image {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+#image .images {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.icons svg {
+   gap: 50px;
+} 
+.post {
+    border: 1px solid rgba(0, 0, 0, 0.315);
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* section.suggest { */
+        /* display: flex; */ 
+/* } */
+/* div.flex {
+    display: flex;
+    align-items: center;
+} */
+
+.profile-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    padding-top: 0;
+    align-items: center;
+}
+.info {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+} 
+.info img {
+    border-radius: 50%;
+}
+.suggestion {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    padding-top: 0;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.511);
+}
+.friends {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.info2 img {
+    border-radius: 50%;
+}
+.info2 {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 10px;
+} 
+p.follow {
+    color: rgba(0, 0, 0, 0.5);
+}
+.suggest a {
+    text-decoration: none;
+    color: blue;
+}
+footer ul {
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+    color: rgba(0, 0, 0, 0.495);
+    font-size: smaller;
+}
